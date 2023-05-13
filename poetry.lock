@@ -820,6 +820,18 @@ files = [
 wcwidth = ">=0.2.5"
 
 [[package]]
+name = "gender-guesser"
+version = "0.4.0"
+description = "Get the gender from first name."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "gender-guesser-0.4.0.tar.gz", hash = "sha256:1591c14592805ca7da06a46d5f7202511f7cb87547049a68dfccbeedb879f31b"},
+    {file = "gender_guesser-0.4.0-py2.py3-none-any.whl", hash = "sha256:7cb01ce5d8d43b94573498bc02c959b622872abd399622ca67d1b73ba6e7e222"},
+]
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -3546,4 +3558,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9cad49d59076d09ca0520fd9b87732f513f313a36ef0edf4e234345331840b9c"
+content-hash = "e06c8d0528f49914636031750f3aa585a9a1a1a55f929ccb5ad8aa396a09be28"
